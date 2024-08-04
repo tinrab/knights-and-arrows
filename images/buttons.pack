@@ -1,0 +1,61 @@
+
+gui.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+button_off
+  rotate: false
+  xy: 0, 0
+  size: 48, 16
+  orig: 48, 16
+  offset: 0, 0
+  index: -1
+button_on
+  rotate: false
+  xy: 0, 16
+  size: 48, 16
+  orig: 48, 16
+  offset: 0, 0
+  index: -1
+button_active
+  rotate: false
+  xy: 0, 32
+  size: 48, 16
+  orig: 48, 16
+  offset: 0, 0
+  index: -1
+plus_on
+  rotate: false
+  xy: 48, 96
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+plus_off
+  rotate: false
+  xy: 48, 112
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+field_bg
+  rotate: false
+  xy: 72, 0
+  size: 48, 8
+  orig: 48, 8
+  offset: 0, 0
+  index: -1
+field_focus
+  rotate: false
+  xy: 72, 8
+  size: 48, 8
+  orig: 48, 8
+  offset: 0, 0
+  index: -1
+cursor
+  rotate: false
+  xy: 120, 0
+  size: 1, 16
+  orig: 1, 16
+  offset: 0, 0
+  index: -1

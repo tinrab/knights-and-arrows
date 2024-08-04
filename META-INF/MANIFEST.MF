@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Rsrc-Class-Path: ./ gdx-backend-lwjgl-natives.jar gdx-backend-lwjgl.ja
+ r gdx-natives.jar gdx-openal.jar
+Class-Path: .
+Rsrc-Main-Class: com.minild44.www.Main
+Main-Class: org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader
+

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="64" height="64" tilewidth="8" tileheight="8">
+ <tileset firstgid="1" name="tiles" tilewidth="8" tileheight="8">
+  <image source="tiles2.png" width="64" height="64"/>
+ </tileset>
+ <layer name="ground" width="64" height="64">
+  <properties>
+   <property name="render" value=""/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2a0W7DMAhFk1Z76PbUX9jj/v8Dt0mNhJDBgAHjpJOutG4V4fheO66b+7Zt97eW049Rs/u+Iv/tTzt4/RioddRZiR/qgXQF/yl2bgxuxO+R/Hvn/5p8UqyHPgX8XD9V/MfetFi/OmPB1aPG2Mrv4bE23z1ZrlXF/xY/zHYEe0V+ik+T/Sr81Byh/u7pdW/dX81/KfsN8ErWKG9+r3XRM+NZ/JJ7jjSzWcrO///Px0sb8Z590lhkSMLPKXLfMSqJZ6P82f1W85/SUXN2BmbwW2pGeO+Rf21fsF6rbuR60eq1t/eweKVhj15bqL2IdJxxn9Y+KO6o+pCd24/tnbGozn+w4TqtM5fRzG6d9/YyBWt55B8y4j699uMafm09L3aOH34Ol9TFHnrze9WU8vfYNZm19tq6hna+43UKe2vlz86/x/29Nbd7/A/jtb35I9hH1z9uDyflz/qcF8EfKe99u/TM0fvctYIwi/S8XXsPnKnRs+Zo/+F57Szfr5Z/Ls8tcfMis2+vnFzdf48xsFwz6p4+UhfynMHXlrTzptJ3D73zlBWEn0HheKTPbcxmupoqzYlMnfm7SCn/all4rw9vSYRzbMk1zlr1ucH1uUrv30qtwkUJZ0zLP7t/qaQ+RfBT1868l0ivdVb/Jd7sJ+CX5Jx7br8aP+5T+9yvVqP8s/f0cBws57+Z/nM5nKUs/qr7hkrz//nS1fifSCO1tGd8M/kx9wz/vSSZ3xRvBH/Gs5qS+42UuZL/o2u1hRnqF42jfIMAQAAA
+  </data>
+ </layer>
+ <layer name="walls" width="64" height="64">
+  <properties>
+   <property name="ao" value=""/>
+   <property name="render" value=""/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+WbS46DMAyGWfQI3Raly97/gjOVihRZfsTYedj5pKgjCIYfO8aBzHkcx/nfXuAX2/aq2gkatR3ug30k29S5pHNKjdPx/eXgro+7Z7BRx1DXWrfPr7UC+2M+gdckab97v2uw+wevAztWox07pjW24LVSfvUA83NPMF9TcTH62kZw6cfIphUijfPs1LG9I1SO24Xd/Z85t7XQWuvNBtYoXkQZ/7A+87YdQT/mJ2v9exwx4p/COv/5oompB/F3ZDTjf6b+0smuJv4z6t89/jX531v/A7FJ2S0O58OYFf+UVmp7MZ6PYlb8c8ePHFsR6p+eRK5/PPAa/0V53p7xrxmnM/X3yn8a/V75rzTagPZ6PP9m6F+JjPqLom+U+Negsa/Nf605cKZ+DVr/e7wHLYL9VeG+y1qJ8H5dWgdgoba5KtI3XqvtSPqxZmX1+YW0Fic73BqenfRTa2Cyg63niZC3vMDWoO2qv0f+X527urOsHaBiH/bB+mfIFZL/pfook35sHkTtb4mbCFC+veCeDRli4MpfLfqpOiFyrSTNUVt8Hll/a60Px8Dd59/717z6WRntO42mUfqj1zAWIo9dD0Y8t0pn+xZG+L90tm8hcu3iQfTnt5Ve3z6iIOnP/i4U1nU12PcQa75Yrf7h5rLY/wBaa/7V6l9uPof9YvcoMpg+STfcHwlu/kp9B8W2Uc3SFxuH3DFXn2dD4+bvf6AWnBgAQAAA
+  </data>
+ </layer>
+ <layer name="collision" width="64" height="64">
+  <properties>
+   <property name="" value=""/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2WW4rlMAxEtbSz/1XNV6DxWK9YTuxcHyjQjaUqCfqjERGOtlWUtn+Vne/Otj4R2vlKVTDLN5Jn7aDpbRjsxfBA1rq1GuS7t0VAzv2XfhHk3H/pF0H2uB+Zs+sMzxkg83ad4VkN0t+z/R316nnvCJL//6/tz3ig1DuDvHd/z0Pzbb+P5NPUUa927klm5ZHwRql3Bnn377/11Hwr8iI7eL29ujLX+j4DLU/r7dV3c++8VcPDeauBnPtJ9Pbq3u+MV+Yt6+15kcizfKMeXq71PeMdndPysr5RDyvb2iXj33pmdqjyfROUWuv1eu74VpPJQ6m13qi35Rv18GY0n4w/Sq31Xhrxjcw/BUqt9f5VRWbPf1WQmvs971XBUZX3quCoyntVcFTlvyo4qvJeFRxVea8Kjqq8VwVHXwdHXwdHXwdFmbmdQVHb4/W3M7uAIu/dmsnmvwmKvHdvbhdQ5L17c7uAIu/dmrGy7uw3E8Ten4R2BIntj6E7eVV9ozyVk82L9o3yVM6qIOd+HshYFeTcf+kXQc79l2bnrAhi3++9P8HMbES/sX2zerN5VX2jMKi7eVV9o1CgnaFAO8HRf/oHyb8VAQBAAAA=
+  </data>
+ </layer>
+ <objectgroup name="actions" width="64" height="64">
+  <object name="camera" x="264" y="408" width="8" height="8"/>
+  <object name="baracks" x="248" y="352" width="8" height="8"/>
+  <object name="base" x="256" y="432" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup name="objects" width="64" height="64">
+  <object name="blue_base" x="256" y="432" width="16" height="16"/>
+  <object name="torch" x="208" y="376" width="8" height="8"/>
+  <object name="torch" x="312" y="376" width="8" height="8"/>
+  <object name="torch" x="200" y="456" width="8" height="8"/>
+  <object name="torch" x="320" y="464" width="8" height="8"/>
+  <object name="torch" x="240" y="232" width="8" height="8"/>
+  <object name="torch" x="280" y="232" width="8" height="8"/>
+  <object name="torch" x="240" y="128" width="8" height="8"/>
+  <object name="torch" x="280" y="128" width="8" height="8"/>
+  <object name="red_base" x="416" y="56" width="16" height="16"/>
+  <object name="potato" x="72" y="16" width="8" height="8"/>
+  <object name="torch" x="376" y="32" width="8" height="8"/>
+  <object name="torch" x="464" y="32" width="8" height="8"/>
+  <object name="torch" x="360" y="128" width="8" height="8"/>
+  <object name="torch" x="480" y="128" width="8" height="8"/>
+  <object name="campfire" x="248" y="352" width="8" height="8"/>
+ </objectgroup>
+ <objectgroup name="spawns" width="64" height="64">
+  <object name="basic" x="24" y="56" width="104" height="56">
+   <properties>
+    <property name="delay" value="15"/>
+    <property name="max" value="4"/>
+    <property name="target" value="blue_base"/>
+   </properties>
+  </object>
+  <object name="basic" x="232" y="40" width="144" height="40">
+   <properties>
+    <property name="delay" value="15"/>
+    <property name="max" value="4"/>
+    <property name="target" value="red_base"/>
+   </properties>
+  </object>
+  <object name="basic" x="464" y="304" width="40" height="96">
+   <properties>
+    <property name="delay" value="45"/>
+    <property name="max" value="2"/>
+    <property name="target" value="blue_base"/>
+   </properties>
+  </object>
+  <object name="create" x="288" y="408" width="112" height="56"/>
+ </objectgroup>
+</map>
